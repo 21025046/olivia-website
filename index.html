@@ -69,6 +69,10 @@
       a {
         color: #de6581;
       }
+      
+      a:hover {
+        background-color: #eddadf;
+      }
 
       h1 {
         padding-top: 70px;
@@ -103,8 +107,16 @@
       }
       
       li:hover {
-        color: #ca7cd6;
+        background-color: #ffffff;
       }
+      
+      li:active, a:active {
+        color: #de6581;
+      }
+      
+      a:visited, li:visited {
+        color: #de184a;
+			}
 
       img {
         width: 90%;
@@ -135,10 +147,10 @@
       <div id="header">
         <div id="nav">
           <ul>
-            <li><a href>introduction</a></li>
-            <li><a href>about me</a></li>
-            <li><a href>favourite karaoke songs</a></li>
-            <li><a href>contact me!</a></li>
+            <li><a href="#introduction">introduction</a></li>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#karaoke">favourite karaoke songs</a></li>
+            <li><a href="contact">contact me!</a></li>
           </ul>
         </div>
       </div>
@@ -147,7 +159,7 @@
           <h1>
             ✧･ﾟ *✧･ﾟ* Olivia's Website *･ﾟ✧* ･ﾟ✧
           </h1>
-          <h2>introduction</h2>
+          <h2 id="introduction">introduction</h2>
           <h3>this is the introduction!</h3>
           <p>
             Hi there! You are currently viewing Olivia's website! Thanks for stopping by! I hope you think my silly little project is cute or something, I had fun making it!
@@ -160,7 +172,7 @@
             <img src="https://static.wixstatic.com/media/ce5274_24fddd6bd1fe44c9b2490b59ac59821f~mv2.png/v1/fill/w_319,h_319,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/shack.png" alt="Olivia">
           </figure>
           <div>
-            <h2>about me</h2>
+            <h2 id="about">about me</h2>
             <h3> ← this is a picture of me! hi there :D </h3>
           </div>
           <p>I'm a second-year student currently studying Global Business and Digital Arts at the University of Waterloo. My passion lies in the world of digital art and design, where I find immense joy in creating new and exciting things. In my free time i like to draw people and cute things! I also love stickers, stationery, and journaling. When I hang out with my friends, I like to go to karaoke and sing together! Thanks a bunch for stopping by.</p>
@@ -168,7 +180,7 @@
       </div>
       <div class="content">
         <div class="formatter">
-          <h2>favourite karaoke songs</h2>
+          <h2 id="karaoke">favourite karaoke songs</h2>
           <h3>these are my fave songs to sing at karaoke along with their codes for tj media!</h3>
           <table>
             <tr>
@@ -267,7 +279,7 @@
               <td>Ricky Martin</td>
             </tr>
           </table>
-          <h2>contact me!</h2>
+          <h2 id="contact">contact me!</h2>
           <h3>want to say something?</h3>
           <p>
             feel free to send me mail <a href="mailto:owycao@uwaterloo.ca">here</a>!<br>you could also find me on instagram <a href="https://www.instagram.com/ihateshack/">here</a>!
